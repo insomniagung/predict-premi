@@ -16,13 +16,13 @@ def prediction(age, sex, bmi, children, smoker):
 
 def main():
     st.title("Prediksi Pembayaran Premi Asuransi Menggunakan Algoritma Regresi Linear")
-    st.markdown("<strong><span style='color:blue'>&nbsp;Agung Gunawan / 2019230012</span></strong>", unsafe_allow_html=True)
+    st.markdown("<strong><span style='color:red'>&nbsp;Agung Gunawan / 2019230012</span></strong>", unsafe_allow_html=True)
     st.write('\n')
     
     st.write('\n')
     st.write('\n')
     
-    st.sidebar.markdown("<strong><span style='color:blue'>Mohon input data sebelum memprediksi.</span></strong>", 
+    st.sidebar.markdown("<strong><span style='color:red'>Mohon input data sebelum memprediksi.</span></strong>", 
                         unsafe_allow_html=True)
     
     sex_dict = {'Male':0, 'Female':1}
